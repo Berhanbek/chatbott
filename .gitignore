@@ -1,5 +1,6 @@
-# Node modules
+# Dependency directories
 node_modules/
+venv/
 
 # Build output
 .next/
@@ -10,26 +11,26 @@ build/
 # Logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+*.log
+*.tmp
 
-# OS files
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# Env files
+# Environment files
 .env
 .env.local
 .env.*.local
 
-# Python
+# Python cache files
 __pycache__/
 *.pyc
 
-# VSCode
+# Editor-specific files
 .vscode/
 
-# Misc
+# Miscellaneous files
 *.swp
 *.swo
 
