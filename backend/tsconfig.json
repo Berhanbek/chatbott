@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // or "react" for older React versions
+    // ...other options
+  },
+  "include": ["src/**/*"], // Include all TypeScript files in the src directory
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}
